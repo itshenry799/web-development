@@ -1,0 +1,15 @@
+nav{
+    display :flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul>li{
+    display: inline-block;
+    margin-right: 52px;
+}
+ul>li>a
+{
+color: brown;
+text-decoration: none;
+font-size: larger;
+}
