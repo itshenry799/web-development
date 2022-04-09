@@ -1,15 +1,98 @@
-nav{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+  font-family:'roboto';
+}
+.nav{
     display :flex;
     align-items: center;
     justify-content: space-between;
+    background-image: url("paper.gif");
+  background-color: #cccccc;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
-ul>li{
+.title{
+  font-family: 'Times New Roman', Times, serif;
+  color: green;
+
+}
+.list{
     display: inline-block;
     margin-right: 52px;
+   
 }
-ul>li>a
+.anchor
 {
 color: brown;
 text-decoration: none;
 font-size: larger;
+
+}
+/* landing section CSS */
+.content{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 16rem;
+  background: url(../image/bg.jpg);
+  background-size:cover ;
+  border-radius: 14px;
+}
+.btn-primary:hover{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:rgba(183, 183, 177, 0.937) ;
+} 
+/* video section  */
+.video_section{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.highlighted_text{
+  color: green;
+}
+.video_section{
+  border: 1px solid black;
+  padding: 4rem;
+}
+.recipes{
+  display: flex;
+  align-items: center;
+
+  justify-content: end;
+
+}
+.left{
+  display: flex;
+  align-items: left;
+  background: url(../image/recipies.png);
+  background-size: cover;
+  padding: 10rem;
+  width: 500px;
+
+}
+.right{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 7rem 7rem 7rem 1rem;
+   font-size: 90%; 
+   font-family: 'ubuntu';
+
+}
+.right>h2{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.arrow{
+  background: url(../image/arrow.svg);
+  background-size: cover;
+  height: 150px;
+  width: 150px ;
+  display: flex;
+  align-items: left;
+
+}
+.work{
+  color: greenyellow;
 }
